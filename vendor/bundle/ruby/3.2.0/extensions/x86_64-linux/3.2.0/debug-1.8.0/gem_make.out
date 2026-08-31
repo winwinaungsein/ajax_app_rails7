@@ -1,0 +1,19 @@
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/home/elic0101/.rbenv/versions/3.2.0/bin/ruby -I /home/elic0101/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-25rth5 sitelibdir\=./.gem.20260831-1649-25rth5 clean
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-25rth5 sitelibdir\=./.gem.20260831-1649-25rth5
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-25rth5 sitelibdir\=./.gem.20260831-1649-25rth5 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20260831-1649-25rth5/debug
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-25rth5 sitelibdir\=./.gem.20260831-1649-25rth5 clean

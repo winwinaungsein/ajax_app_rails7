@@ -1,0 +1,18 @@
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+/home/elic0101/.rbenv/versions/3.2.0/bin/ruby -I /home/elic0101/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-dnf0g8 sitelibdir\=./.gem.20260831-1649-dnf0g8 clean
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-dnf0g8 sitelibdir\=./.gem.20260831-1649-dnf0g8
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-dnf0g8 sitelibdir\=./.gem.20260831-1649-dnf0g8 install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20260831-1649-dnf0g8
+
+current directory: /home/elic0101/projects/ajax_app_rails7/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.8.2/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260831-1649-dnf0g8 sitelibdir\=./.gem.20260831-1649-dnf0g8 clean
