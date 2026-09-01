@@ -16,11 +16,11 @@ default: &default
   username: root
   password:
   host: localhost
+  socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
   database: ajax_app_rails7_development
-  socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -51,6 +51,5 @@ test:
 #
 production:
   <<: *default
-  database: ajax_app_rails7_2_production
-  username: ajax_app_rails7_2
-  password: <%= ENV["AJAX_APP_RAILS7_2_DATABASE_PASSWORD"] %>
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
